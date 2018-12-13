@@ -55,6 +55,8 @@
 %% e.g. using Venturis ADF Serif and Sans
 % \usepackage{venturis}
 
+\usepackage{datetime}
+
 %-------------------------------------------------------
 % DEFFINING AND REDEFINING COMMANDS
 %-------------------------------------------------------
@@ -90,7 +92,8 @@
       Aalto University
 }
 
-\date{\today}
+\newdate{presentation-date}{14}{12}{2018}
+\date{\displaydate{presentation-date}}
 
 %-------------------------------------------------------
 % THE BODY OF THE PRESENTATION
