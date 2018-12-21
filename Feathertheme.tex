@@ -1,4 +1,4 @@
-\documentclass[10pt,xcolor={dvipsnames}]{beamer}
+\documentclass[10pt,xcolor={dvipsnames},notes]{beamer}
 \usetheme[
 %%% option passed to the outer theme
 %    progressstyle=fixedCircCnt,   % fixedCircCnt, movingCircCnt (moving is deault)
@@ -110,16 +110,40 @@
   \titlepage % call the title page information from above
 \end{frame}}
 
+\note{
+Good morning everyone, I am going to present what my paper called ``Serverless Edge Computing Solutions by Public Cloud Providers''. Over the past few decades, the public cloud providers seen a strong rise. A lot of functionality powering every days mobile phones have been moved to the cloud. These public cloud providers offer these services allowing you to do everything you need to do during the day. The technology behind the public cloud has mostly been pushed by the public cloud providers, what they do becomes the standard. What you see in academia is that they will adopt and start researching the topics developed by them, most notably by AWS. One of the topics AWS started researching or developing a few years ago is edge computing platforms. Now we already see that academia started to follow this trend. Therefore I wanted to look into the current state of these edge computing solutions. \\
+
+BETTER:
+
+Good morning everyone, I am going to present THE RESULTS FROM MY PAPER TITLED ``Serverless Edge Computing Solutions by Public Cloud Providers''. Over the past few decades HAVE PUBLIC CLOUD PROVIDERS SEEN A STRONG GROWTH. A lot 
+}
+
+\note{
+of THE functionality powering ALL mobile phones EACH OF US HAS IN HIS/HERS POCKET have been moved to theSE PUBLIC clouds. THUS THEY HAVE BECOME AN IMPORTANT PART OF THE TECHNOLOGY WE RELY ON. The TECHNOLOGICAL DEVELOPMENTS behind the public cloud HAVE mostly been pushed by the public cloud providers THEMSELVES. OFTEN DO WE OBSERVE THAT what they NOW becomes the future standard for the INDUSTRY AND ACADEMIA. What WE OBSERVED in PREVIOUS RESULTS PUBLISHED BY academia is that they REGULARLY adopt THEIR RESEARCH topics BASED ON THE CURRENT DEVELOPMENTS BY THE PUBLIC CLOUD PROVIDERS. ONE OF THE MOST NOTABLE PLAYERS PUSHING THIS DEVELOPMENT FROM WITHIN THE INDUSTRY IS AMAZON WITH AWS. AWS started THE DEVELOPMENT OF EDGE COMPUTING SOLUTIONS TWO YEARS AGO. RECENTLY HAVE WE OBSERVED AN INCREASED INTEREST IN EDGE COMPUTING SOLUTIONS. Therefore I wanted to look into the current state of these edge computing solutions OFFERED BY PUBLIC CLOUD PROVIDERS.
+}
+
 
 \begin{frame}{Content}{}
 \tableofcontents
 \end{frame}
+
+\note{
+So, a brief overview. First I am going to explain the concept of edge computing. Then serverless. After that I go through the four major edge solution providers, and then some serverless edge computing, and lastly the conclusion. \\
+
+BETTER:
+
+So, a brief overview. First I am going to explain the concept of edge computing. Then serverless. After that I WILL DISCUSS the four major edge solution providers, and then PRESENT THE serverless edge computing SOLUTIONS OFFERED BY THESE PUBLIC CLOUD PROVIDERS. Lastly I WILL SUMMARIZE THE RESULTS OF THIS PRESENTATION IN THE conclusion.
+}
 
 %-------------------------------------------------------
 \section{Edge Computing}
 \begin{frame}{Content}{}
 \tableofcontents[currentsection]
 \end{frame}
+
+\note{
+So first: Edge computing.
+}
 %-------------------------------------------------------
 
 \begin{frame}{Edge Computing}{}
@@ -159,6 +183,14 @@ Offloading tasks from end-device or cloud on devices along the network path betw
 \begin{frame}{Content}{}
 \tableofcontents[currentsection]
 \end{frame}
+
+\note{
+Then serverless. \\
+
+BETTER:
+
+AFTER EDGE COMPUTING WILL WE TAKE A BRIEF LOOK INTO serverless.
+}
 %-------------------------------------------------------
 
 \begin{frame}{Serverless}{}
@@ -191,6 +223,13 @@ Offloading tasks from end-device or cloud on devices along the network path betw
 \begin{frame}{Content}{}
 \tableofcontents[currentsection]
 \end{frame}
+
+\note{
+Then some edge solutions by public cloud providers. \\
+
+BETTER:
+NOW WE WILL LOOK INTO EDGE SOLUTIONS PROVIDED BY THE MAJOR PUBLIC CLOUD PROVIDERS, STARTING WITH AMAZON WEB SERVICES.
+}
 %-------------------------------------------------------
 \subsection{Amazon Web Services}
 \renewcommand{\logofile}{img/aws}
@@ -290,7 +329,9 @@ Offloading tasks from end-device or cloud on devices along the network path betw
 \begin{frame}{Content}{}
 \tableofcontents[currentsection]
 \end{frame}
-
+\note{
+Then serverless edge computing.
+}
 %-------------------------------------------------------
 \subsection{AWS Greengrass}
 \renewcommand{\logofile}{img/aws_lambda}
@@ -361,9 +402,25 @@ Offloading tasks from end-device or cloud on devices along the network path betw
       \end{itemize}
   \end{itemize}
   
+  \note{
+    So in conclusion: The edge computing platforms from the public cloud providers are emerging. Over the past few years have we seen three major cloud providers adopting this new pattern. Two of them quite recently and only in the last six months. While one, maybe two, are quite mature already. AWS Greengrass and Microsoft Azure IoT are quite production ready is Google still working on that. Also both Greengrass and Azure IoT offer serverless solutions at the edge. And for everyone who wants, you can get started today using it, for all of the platforms are there free versions available. You can try them out, you can play with them and you only need really minimal hardware. You can get it running within an hour.
+    
+    BETTER:
+    So, in conclusion: The edge computing platforms from the public cloud providers are emerging. Over the past few years have we seen three major cloud providers adopting this new pattern. Two of them quite recently in the last six months. While one, maybe two, CAN BE CONSIDERED PRODUCTION READY, namely AWS Greengrass and Microsoft Azure IoT. THE THIRD PLATFORM OFFERED BY Google IS STILL IN ACTIVE DEVELOPMENT. In addition, both Greengrass and Azure IoT offer serverless solutions at the edge.
+    
+    For everyone who IS INTERESTED IN THIS NEW TECHNOLOGY, you can get started today using it, for all of the platforms are there free versions available. You can try them out, you can play with them and NO EXPENSIVE HARDWARE IS NECESSARY, SO WHY WOULDN'T YOU?
+  }
+  
   \pause
   
   \Huge Questions?
+  
+  \note{
+  Thank you, and are there any questions?
+  
+  BETTER:
+  Thank you FOR YOUR ATTENTION. Are there any questions?
+  }
   
 \end{frame}
 
